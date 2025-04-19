@@ -30,5 +30,4 @@ class AttendanceDetailController {
     }
   }
 }
-
 export default AttendanceDetailController;

@@ -4,7 +4,7 @@ const jwtservice = new JWT();
 const AuthMiddleware = async (req, res, next) => {
   try {
     const token = req.headers.authorization
-      ? req.headers.authorization.split(" ")[1]
+      ? req.headers.authorization.split(' ')[1]
       : undefined;
     const tokenData = jwtservice.verifyToken(token);
     req.id = tokenData.id;

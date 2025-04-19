@@ -19,5 +19,4 @@ const Routes = () => [
   AttenenceDetailRoute,
   PaymentRoute,
 ];
-
 export default Routes;
