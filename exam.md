@@ -534,7 +534,6 @@ CREATE TABLE schedule (
 #### Davomat kiritish
 
 **POST /api/lessons/:lessonId/attendance** (Admin, Teacher)
-
 - Headers: Authorization: Bearer {token}
 - Body:
   ```json
