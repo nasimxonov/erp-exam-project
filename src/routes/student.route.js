@@ -7,7 +7,7 @@ const StudentRoute = Router();
 const controller = new StudentController();
 
 StudentRoute.get(
-  "/get",
+  "/students",
   AuthMiddleware,
   RoleMiddleware("admin", "superadmin"),
   (req, res, next) => controller.getAll(req, res, next)
